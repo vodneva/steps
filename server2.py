@@ -3,7 +3,7 @@ import socket
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server.bind(("127.0.0.1", 2222))
+server.bind(("0.0.0.0", 2222))
 server.listen(10)
 close_msg = u'close'
 
